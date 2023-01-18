@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+
+.navbar {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+  width: 100%;
+
+  background-color: rgb(255, 230, 167);
+
+  color: rgb(0, 0, 0);
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.nav-links a {
+
+  color: rgb(0, 0, 0);
+
+}
+
+/* LOGO */
+
+.logo {
+
+  font-size: 32px;
+
+}
+
+/* NAVBAR MENU */
+
+.menu {
+
+  display: flex;
+
+  gap: 1em;
+
+  font-size: 18px;
+
+}
+
+.menu li:hover {
+
+  background-color: #4c9e9e;
+
+  border-radius: 5px;
+
+  transition: 0.3s ease;
+
+}
+
+.menu li {
+
+  padding: 5px 14px;
+
+}
+
+/* DROPDOWN MENU */
+
+.services {
+
+  position: relative;
+
+}
+
+.services:hover .dropdown {
+
+  display: block;
+
+}
+
+.main{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.photo img{
+  background-image: 100%;
+  height: 190px;
+  width: 100vw;
+  
+}
+
+.type{
+  
+}
+
+.heading{
+  position: absolute;
+  margin-top: 194px;
+  font-size: 50px;
+  margin-left: 294px;
+  font-family: 'Times New Roman', Times, serif;
+  letter-spacing: 2px;
+}
+
+.h1{
+  font-size: 25px;
+  
+}
+.student{
+  position: absolute;
+  margin-top: 19vw;
+  width: 50vw;
+  margin-left: 50px;
+  font-size: 20px;
+
+}
+
+.relief{
+  position: absolute;
+  margin-top: 43vw;
+  width: 50vw;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.digital{
+  position: absolute;
+  margin-top: 53vw;
+  width: 50vw;
+  margin-left: 50px;
+  font-size: 20px;
+
+}
+
+.medical{
+  position: absolute;
+  margin-top: 32vw;
+  width: 50vw;
+  margin-left: 50px;
+  font-size: 20px;
+
+}
+
+.signup{
+  position: absolute;
+  margin-left: 69vw;
+  margin-top: 60vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30PX;
+}
+
+.s2{
+  position: absolute;
+  margin-left: 65vw;
+  margin-top: 68vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30PX;
+}
+
+.box{
+  
+    background-color: aquamarine;
+    position: absolute;
+    height: 70vh;
+    width: 35vw;
+    margin-top: 20vw;
+    margin-left:61vw ;
+    
+}
+
+.button button{
+  background-color: aqua;
+  position: absolute;
+  width: 300px;
+  height: 46px;
+  margin-top: 75vh;
+  margin-left:67vw ;
+  text-align: center;
+  font-size: 34px;
+  cursor: pointer;
+  border-radius: 10px;
+  border-width: 0px;
+}
+
+.button button :hover{
+  text-decoration: blue;
+}
+
+footer {
+  position: absolute;
+
+  height: auto;
+
+  width: 100vw;
+
+  padding-top: 40px;
+
+  color: #fff;
+
+  background-color: black;
+  margin-top: 120vh;
+}
+
+.footer-content {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  flex-direction: column;
+
+  text-align: center;
+}
+
+.footer-content h3 {
+  font-size: 2.1rem;
+
+  font-weight: 500;
+
+  text-transform: capitalize;
+
+  line-height: 3rem;
+}
+
+.footer-content p {
+  max-width: 500px;
+
+  margin: 10px auto;
+
+  line-height: 28px;
+
+  font-size: 14px;
+
+  color: #cacdd2;
+}
+
+.socials {
+  list-style: none;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  margin: 1rem 0 3rem 0;
+
+  color: #fff;
+}
+
+.socials li {
+  margin: 0 10px;
+}
+
+.socials a {
+  text-decoration: none;
+
+  color: #fff;
+
+  padding: 5px;
+}
+
+.socials a i {
+  font-size: 1.1rem;
+
+  width: 20px;
+
+  transition: color 0.4s ease;
+}
+
+.socials a:hover i {
+  color: aqua;
+}
+
+.footer-bottom {
+
+
+  width: 100vw;
+
+  padding: 20px;
+
+  padding-bottom: 40px;
+
+  text-align: center;
+}
+
+.footer-bottom p {
+  float: left;
+
+  font-size: 14px;
+
+  word-spacing: 2px;
+}
+
+.footer-bottom p a {
+  color: #ccc;
+
+  font-size: 16px;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+.footer-bottom span {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.footer-menu {
+  float: right;
+}
+
+.footer-menu ul {
+  display: flex;
+  text-align: center;
+}
+
+.footer-menu ul li {
+  padding-right: 10px;
+
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #cfd2d6;
+  text-align: center;
+
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover {
+  color: #27bcda;
+}
+
+@media (max-width: 500px) {
+  .footer-bottom p {
+      float: none;
+  }
+
+  .footer-menu ul {
+      display: flex;
+
+      margin-top: 10px;
+
+      margin-bottom: 20px;
+
+      text-align: center;
+  }
+}
