@@ -34,6 +34,18 @@ li {
 
 }
 
+.logo {
+  font-family: 'Shadows Into Light Two';
+  display: inline;
+
+}
+
+.logoimg {
+  width: 50px;
+  display: inline-block;
+  float: right;
+}
+
 .nav-links a {
 
   color: rgb(0, 0, 0);
@@ -62,7 +74,7 @@ li {
 
 .menu li:hover {
 
-  background-color: #4c9e9e;
+  background-color: #975c5a;
 
   border-radius: 5px;
 
@@ -76,22 +88,9 @@ li {
 
 }
 
-/* DROPDOWN MENU */
-
-.services {
-
-  position: relative;
-
-}
-
-.services:hover .dropdown {
-
-  display: block;
-
-}
 
 .main{
-  height: 100vh;
+  /*height: 100vh;*/
   display: flex;
   flex-direction: column;
 }
@@ -103,35 +102,37 @@ li {
   
 }
 
-.type{
-  
-}
 
 .heading{
   position: absolute;
   margin-top: 194px;
-  font-size: 50px;
-  margin-left: 294px;
+  margin-left: 235px;
   font-family: 'Times New Roman', Times, serif;
-  letter-spacing: 2px;
+  
+}
+
+.firstp{
+  margin-top: 40px;
+  margin-left: 50px;
+  font-size: 20px;
+  width: 50vw;
 }
 
 .h1{
-  font-size: 25px;
+  font-size: 28px;
   
 }
 .student{
   position: absolute;
-  margin-top: 19vw;
+  margin-top: 21vw;
   width: 50vw;
   margin-left: 50px;
   font-size: 20px;
-
 }
 
 .relief{
   position: absolute;
-  margin-top: 43vw;
+  margin-top: 39vw;
   width: 50vw;
   margin-left: 50px;
   font-size: 20px;
@@ -139,7 +140,7 @@ li {
 
 .digital{
   position: absolute;
-  margin-top: 53vw;
+  margin-top: 48vw;
   width: 50vw;
   margin-left: 50px;
   font-size: 20px;
@@ -148,7 +149,7 @@ li {
 
 .medical{
   position: absolute;
-  margin-top: 32vw;
+  margin-top: 30vw;
   width: 50vw;
   margin-left: 50px;
   font-size: 20px;
@@ -173,7 +174,7 @@ li {
 
 .box{
   
-    background-color: aquamarine;
+    background-color: rgb(234, 173, 82);
     position: absolute;
     height: 70vh;
     width: 35vw;
@@ -183,12 +184,13 @@ li {
 }
 
 .button button{
-  background-color: aqua;
+  background-color: rgb(117, 5, 5);
+  font-family: 'Times New Roman', Times, serif;
   position: absolute;
   width: 300px;
   height: 46px;
-  margin-top: 75vh;
-  margin-left:67vw ;
+  margin-top: 55vh;
+  margin-left:69vw ;
   text-align: center;
   font-size: 34px;
   cursor: pointer;
